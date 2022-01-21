@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>OOFO Login</title>
+
+  <!-- Custom Font for Header -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Passion+One&display=swap" rel="stylesheet">
+
+  <!-- Bootrstrap CSS, always above stylesheet-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <section id="title">
+
+    <!-- Title Container FLuid Start -->
+    <div class="container-fluid main-container">
+
+      <!-- Nav Bar : App Logo and Title -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"></a>
+        <a class="navbar-brand" href="/Productlaunchhome.html"> <img class="navbar-logo" src="/images/knight.png"
+            width="70" height="70" alt="logo"> OOFO <i class="fas fa-sign-in-alt"></i></a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Nav bar for 6 html links  -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/Productlaunchhome.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/ProductlaunchAbout.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Productlaunchevents.html">Seasonal Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Productlaunchlogin.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Productlaunchcode.html">Daily Code</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Productlaunchwiki.html">Wiki</a>
+            </li>
+        </div>
+      </nav>
+
+      <!-- Section Caption + Download + Hover color on Button function -->
+      <div class="row">
+
+        <div class="col-lg-6 text-center">
+          <div>
+            <h1><u> Ola Ola Fantasy Online </u></h1>
+            <h1>Destroy the evil demon lord, become the Hero of Legend !!</h1>
+          </div>
+        </div>
+
+        <div class="col-lg-6 text-center">
+          <div>
+            <button type="button" class="btn btn-dark btn-lg dl-btn"><i class="fab fa-apple"></i> Apple
+              Download</button>
+            <button type="button" class="btn btn-dark btn-lg dl-btn"><i class="fab fa-google-play"></i> Google
+              Download</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Title Container FLuid End -->
+  </section>
+
+  <!-- Section Login : Login form  -->
+
+  <hr>
+  <h1 class="user-h1">User's Control Panel</h1>
+  <hr>
+
+  <div class="login-wrap">
+    <div class="login-html">
+      <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>
+      <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
+      <div class="login-form">
+        <div class="sign-in-htm">
+          <div class="group">
+            <label for="user" class="label">Username</label>
+            <input id="user" type="text" class="input">
+          </div>
+          <div class="group">
+            <label for="pass" class="label">Password</label>
+            <input id="pass" type="password" class="input" data-type="password">
+          </div>
+          <div class="group">
+            <input id="check" type="checkbox" class="check" checked>
+            <label for="check"><span class="icon"></span> Keep me Signed in</label>
+          </div>
+          <div class="group">
+            <input type="submit" class="button" value="Sign In">
+          </div>
+          <div class="hr"></div>
+          <div class="foot-lnk">
+            <a href="#forgot">Forgot Password?</a>
+          </div>
+        </div>
+        <div class="sign-up-htm">
+          <div class="group">
+            <label for="user" class="label">Username</label>
+            <input id="user" type="text" class="input">
+          </div>
+          <div class="group">
+            <label for="pass" class="label">Password</label>
+            <input id="pass" type="password" class="input" data-type="password">
+          </div>
+          <div class="group">
+            <label for="pass" class="label">Repeat Password</label>
+            <input id="pass" type="password" class="input" data-type="password">
+          </div>
+          <div class="group">
+            <label for="pass" class="label">Email Address</label>
+            <input id="pass" type="text" class="input">
+          </div>
+          <div class="group">
+            <input type="submit" class="button" value="Sign Up">
+          </div>
+          <div class="hr"></div>
+          <div class="foot-lnk">
+            <label for="tab-1">Already Member?</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <hr>
+  <!-- Footer -->
+
+  <footer id="footer">
+    <p>© Copyright 2021 Ola Ola Studios</p>
+  </footer>
+
+  </section>
+
+</body>
+
+</html>
+
+
+<!-- Icon script -->
+<script src="https://kit.fontawesome.com/1b9ee30678.js" crossorigin="anonymous"></script>
+<!-- Bootstrap Javascript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<!-- jQuery to load -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="js/script.js"></script>
+
+
+</body>
+
+</html>
